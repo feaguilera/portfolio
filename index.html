@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Felipe Aguilera</span></a>
+
+        <ul class="nav-links">
+            <li><a href="#about">inicio</a></li>
+            <li><a href="#experience">experiencia</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#projects">projetos</a></li>
+            <li><a href="#contact">contatos</a></li>
+        </ul>
+
+        <a href="https://github.com/feaguilera" target="_blank" class="visit-btn">Visite Meu GitHub</a>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="./images/foto.png" alt="">
+            
+            <div class="info-box">
+                <div class="text">
+                    <h3>Olá, meu nome é</h3>
+                    <h1>Felipe Aguilera</h1>
+                    <div class="typing"><span>Frontend Developer</span></div>
+                </div>
+
+                <div class="btn-group">
+                    <a href="./images/Curriculo.pdf" download class="btn">Download CV</a>
+                    <a href="https://www.linkedin.com/in/felipe-aguilera-bertolini/" target="_blank" class="btn">Contato</a>
+                </div>
+                
+                <div class="socials">
+                    <a href="https://github.com/feaguilera" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/felipe-aguilera-bertolini/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experiencia Curricular</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Desenvolvimento Fullstack</span>
+                    <h3>Analise e Desenvolvimento de Sistema</h3>
+                    <p>Faculdade Vincit 2024-2027.</p>
+                </div>
+
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Pós-graduação Segurança Ofensiva e Inteligência Cibernética</span>
+                    <h3>Pós-graduação Lato Sensu - Especialização Segurança Ofensiva e Inteligência Cibernética</h3>
+                    <p>Faculdade VINCIT - 2022-2023.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Analista de Segurança da informação</span>
+                    <h3>Tecnólogo em segurança da informação</h3>
+                    <p>FATEC Ourinhos Faculdade de Tecnologia de Ourinhos - 2019-2021.</p>
+                </div>
+                <!-- Adicione outros cards aqui -->
+            </div>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <h1 class="heading">Minhas <span>Habilidades</span></h1>
+        <div class="skills-container">
+            <!-- Coluna 1 -->
+            <div class="skill-column">
+                <div class="skill-item">
+                    <box-icon name='html5' type='logo' class='icon' ><i class='bx bxl-html5' ></i></box-icon>
+                    <div class="skill-info">
+                        <h3>HTML5</h3>
+                        <p>Criação de layouts estruturados e semânticos.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <box-icon name='css3' type='logo' class='icon'><i class='bx bxl-css3' ></i></box-icon>
+                    <div class="skill-info">
+                        <h3>CSS3</h3>
+                        <p>Estilização de layouts responsivos e modernos.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <box-icon name='javascript' type='logo' class='icon'> <i class='bx bxl-javascript' ></i></box-icon>
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                        <p>Desenvolvimento de interatividade e lógica de programação.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <box-icon name='code-alt' type='logo' class='icon'><i class='bx bx-code-alt'></i></box-icon>
+                    <div class="skill-info">
+                        <h3>C#</h3>
+                        <p>Programação para automação e análise de dados.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Coluna 2 -->
+            <div class="skill-column">
+                <div class="skill-item">
+                    <box-icon name='react' type='logo' class='icon'><i class='bx bxl-react' ></i></box-icon>
+                    <div class="skill-info">
+                        <h3>React</h3>
+                        <p>Desenvolvimento de interfaces de usuário interativas.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <box-icon name='nodejs' type='logo' class='icon'><i class='bx bxl-nodejs' ></i></box-icon>
+                    <div class="skill-info">
+                        <h3>Node.js</h3>
+                        <p>Execução de JavaScript no servidor.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <box-icon name='python' type='logo' class='icon'><i class='bx bxl-python' ></i></box-icon>
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                        <p>Programação para automação e análise de dados.</p>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <box-icon name='data' type='logo' class='icon'><i class='bx bxs-data' ></i></box-icon>
+                    <div class="skill-info">
+                        <h3>MySql</h3>
+                        <p>Programação para automação e análise de dados.</p>
+                    </div>
+                </div>
+               
+            </div>
+            
+                <!-- Adicione outros cards aqui -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projetos Recentes</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./images/landing-page-3.png" alt="">
+                <h3>Lading Page Metaverso</h3>
+                <p>Linda Lading Page Somente com as Tecnologias html5 e CSS3!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/landing-pag-003-Metaverso/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/landing-pag-003-Metaverso" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/landing-page-2.png" alt="">
+                <h3>Lading Page NFT</h3>
+                <p>Linda Lading Page Somente com as Tecnologias html5 e CSS3!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/landing-pag-002-NFT/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/landing-pag-002-NFT/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/landing-page-1.png" alt="">
+                <h3>Lading Marketing Digital</h3>
+                <p>Linda Lading Page Somente com as Tecnologias html5 e CSS3!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/landing-pag-001/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/landing-pag-001/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/Caculadora-IMC-2.png" alt="">
+                <h3>Caculadora-IMC-2</h3>
+                <p>Calculadora de IMC corporal. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/calculadora_IMC/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/calculadora_IMC/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/porfolio-1.png" alt="">
+                <h3>Lading Page NFT</h3>
+                <p>Portfolio. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/portfolio2/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/portfolio2/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/carrosel-anime.png" alt="">
+                <h3>Carrosel Animes</h3>
+                <p>Carrosel animado. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/carrossel-anime/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/carrossel-anime/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/pokedex.png" alt="">
+                <h3>Pokedex Iniciante</h3>
+                <p>Pokedex utilizada uma API. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/pokedex/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/pokedex/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./images/relogio-digital.png" alt="">
+                <h3>Relogio Digital</h3>
+                <p>Relogio digital. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/relogio-Digital/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/relogio-Digital/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/slideshow.png" alt="">
+                <h3>slideshow</h3>
+                <p>slideshow. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/slideshow/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/slideshow/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <img src="./images/Dark-mode.png" alt="">
+                <h3>Alterar a cor da Pagina Dark-mode</h3>
+                <p>Botão que altera a cor da pagina. Dark Mode. Realizado somente com as Tecnologias html5 e CSS3.</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/switch_para_Mudar_de_Tema/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/switch_para_Mudar_de_Tema/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <img src="./images/semafaro.png" alt="">
+                <h3>Semafaro</h3>
+                <p>Semafaro. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/semaforo/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/semaforo/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <img src="./images/baby-yoda.png" alt="">
+                <h3>Baby Yoda</h3>
+                <p>Baby Yoda somente com html5 e CSS3.</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/desenvolvendo_Baby_Yoda/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/desenvolvendo_Baby_Yoda/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/Caculadora-IMC-1.png" alt="">
+                <h3>Calculadora IMC </h3>
+                <p>Calculadora IMC Basica. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/calculadora-IMC-basica/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/calculadora-IMC-basica/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/lampada-2.png" alt="">
+                <h3>Lampada 2</h3>
+                <p>Lampada com um unico botão. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/lampada2/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/lampada2/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/lampada-1.png" alt="">
+                <h3>Lampada</h3>
+                <p>Lampada com dois botões liga e desliga. Realizado somente com as Tecnologias html5, CSS3 e JavaScript!</p>
+                <div class="btn-group">
+                    <a href="https://feaguilera.github.io/lampada/" class="btn" >Live Demo</a>
+                    <a href="https://github.com/feaguilera/lampada/" target="_blank" class="btn">Github Repositorio</a>
+                </div>
+            </div>
+            <!-- Adicione outros projetos aqui -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="input-box">
+            <h2 class="section-title">Entrar em Contato</h2>
+
+            <div class="input">
+                <input type="text" placeholder="exemple@mail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+    
+            <div class="btn">Enviar</div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#about">Inicio</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contatos</a></li>
+        </ul>
+        <p class="copyright">© All Rights reserved | Felipe Aguilera</p>
+    </footer>
+
+    <script src="./style/script.js"></script>
+
+</body>
+</html>
