@@ -17,7 +17,7 @@ header{
     display: flex;
     align-items: center;
     gap: 5rem;
-    background-color: #52050A;
+    background-color: #000000;
     backdrop-filter: blur(8px);
     color: #00e5fa;
     padding: 0.5rem 1.5rem;
@@ -55,7 +55,7 @@ li a::before{
     top: 25px;
     border-radius: 1rem;
     transition: 0.3 ease-in-out;
-    background: linear-gradient(to left, #52050A, rgb(181, 75, 181));
+    background: linear-gradient(to bottom, #009dff, #b700ff);
 }
 li a:hover::before{
     width: 100%;
@@ -70,10 +70,10 @@ li a:hover::before{
     cursor: pointer;
     text-wrap: nowrap;
     transition: 0.3 ease-in-out;
-    background: linear-gradient(to right, #52050A,#EA9010);
+    background: linear-gradient(to bottom, #009dff, #b700ff);
 }
 .visit-btn:hover{
-    background: linear-gradient(to right, #52050A, #b700ff);
+    background: linear-gradient(to bottom, #009dff, #b700ff);
     transform: scale(1.03);
 }
 #menu-icon{
@@ -95,24 +95,24 @@ section{
 .about img {
     width: 30vw;
     border-radius: 50%;
-    border: 5px solid #52050A; /* cor da borda */
+    border: 5px solid #000000; /* cor da borda */
 }
 
 .about img {
     width: 30vw;
     border-radius: 50%;
-    box-shadow: 0 0 20px 5px #52050A; /* sombra colorida */
+    box-shadow: 0 0 20px 5px #009dff; /* sombra colorida */
 }
 
 .about img {
     width: 30vw;
     border-radius: 50%;
-    box-shadow: 0 0 10px ##52050A, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    box-shadow: 0 0 10px #000000, 0 0 20px #333, 0 0 30px #009dff;
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .about img:hover {
-    box-shadow: 0 0 20px #b700ff, 0 0 40px #b700ff, 0 0 60px #b700ff;
+    box-shadow: 0 0 20px #009dff, 0 0 40px #009dff, 0 0 60px #009dff;
 }
 
 
@@ -145,7 +145,7 @@ section{
     font-weight: 600;
 }
 .info-box span{
-    background: linear-gradient(to right, #52050A, rgb(255, 0, 255));
+    background: linear-gradient(to right, #009dff, rgb(255, 0, 255));
     background-clip: text;
     color: transparent;
     font-size: 3rem;
@@ -190,7 +190,7 @@ section{
 
 
 .btn:hover{
-    background-color: #52050A;
+    background-color: #009dff;
     color: white;
 }
 .socials{
@@ -229,7 +229,7 @@ section{
     gap: 2rem;
 }
 .grid-card{
-    border: 2px solid #52050A;
+    border: 2px solid #009dff;
     border-radius: 3rem;
     padding: 3rem;
     display: flex;
@@ -241,7 +241,7 @@ section{
 }
 .grid-card:hover{
     transform: scale(1.02);
-    background-color: #52050A;
+    background-color: #009dff;
     color: white;
 }
 .grid-card i{
@@ -251,7 +251,7 @@ section{
 .grid-card span{
     font-size: 1.5rem;
     font-weight: 500;
-    background: linear-gradient(to right, #000000, #ff00ff);
+    background: linear-gradient(to right, #000000, #009dff);
     background-clip: text;
     color: transparent;
 }
@@ -284,7 +284,7 @@ section{
     transition: 0.3s ease-in-out;
 }   
 .project-card:hover{
-    background-color: #52050A;
+    background-color: linear-gradient(to bottom, #009dff, #b700ff);
     color: white;
     transform: translateY(-10px)scale(1.02);
 }
@@ -298,7 +298,7 @@ section{
 }
 .project-card:hover .btn:hover{
     border: 2px solid white;
-    background-color: rgb(51, 33, 33);
+    background-color: linear-gradient(to bottom, #009dff, #b700ff);
     color: #52050A;  
 }
 .project-card h3{
@@ -563,7 +563,7 @@ footer ul li a{
 
 .projects-grid .btn-group li a {
     color: #ffffff; /* cor desejada */
-    background-color: #52050A;
+    background-color: #333;
     border-radius: 10px;
     padding: 120px;
 }
